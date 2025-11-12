@@ -1,2 +1,43 @@
+import { Toolbox } from "./code2.js";
+
 let canvas = document.getElementById("myCanvas");
 let pencil = canvas.getContext("2d");
+
+
+let myFavoriteletters = ["a","b","c"];
+
+// gets a random number 0 --> array.length, given an array
+
+function getRandomindex (array){
+    return Math.floor( 
+        Math.random() * array.length
+);
+} 
+
+// gets a random intem from an array
+
+function getRandomItem(array) {
+    let randomIndex = getRandomindex(array);
+    return array[randomIndex];
+}
+
+// let counts = [0,0,0]
+
+
+
+for(let i = 0; i <100; i++){
+//     let randomindex = getRandomindex(myFavoriteletters);
+//     counts[randomindex] = counts [randomindex]
+
+
+// console.log(counts);
+// ^^^ This code never worked ^^^
+
+//  console.log(Toolbox.getRandomItem(myFavoriteletters));
+// }
+
+// console.log(Toolbox);
+}
+
+// let shuffled = Toolbox.shuffledArray(myFavoriteletters)
+// console.log(shuffled)
