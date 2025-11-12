@@ -41,3 +41,10 @@ for(let i = 0; i <100; i++){
 
 // let shuffled = Toolbox.shuffledArray(myFavoriteletters)
 // console.log(shuffled)
+
+let hexArray = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"]
+let getRandomCharacter () {
+    
+    "#"+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)
+};
+
