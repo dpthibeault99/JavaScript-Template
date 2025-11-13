@@ -37,14 +37,32 @@ for(let i = 0; i <100; i++){
 // }
 
 // console.log(Toolbox);
-}
+
 
 // let shuffled = Toolbox.shuffledArray(myFavoriteletters)
 // console.log(shuffled)
 
-let hexArray = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"]
-let getRandomCharacter () {
+// let hexArray = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"]
+// let getRandomCharacter () {
     
-    "#"+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)
-};
+//     "#"+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)+ Math.random(hexArray)
+// ^^^ Also never worked ^^^
 
+getRandomColor () {
+
+    let color = "#";
+
+    let chars = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
+
+    for(let i = 0; i <6; i++)
+
+        color += this.getRandomColor(chars)
+
+    // let char1 = this.getRandomItem(chars);
+
+    colors +=char1;
+
+    return color;
+
+
+}
